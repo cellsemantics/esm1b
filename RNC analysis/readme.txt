@@ -5,3 +5,5 @@ rnc analysis final.ipynb: Jupyter notebook with the finalized scripts for RNC re
 rnc_metadata.xlsx: RNC metadata sheet.
 
 utility.py: Python file with all helper functions utilized in rnc analysis final.ipynb.
+
+RNC_env.yml: The .yml file containing the anaconda setup for RNC data analysis.
