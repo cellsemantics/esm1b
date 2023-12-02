@@ -1,12 +1,12 @@
 # Steps for preprocessing 
 Script1 steps: 
-1) Extract the DNA and Protein sequence as per gene from the NCBI file into a data frame. 
+1) Extract the DNA and Protein sequence for every gene from the NCBI file into a data frame. 
 2) Merge the DNA and Protein sequence to the missense variants file from E.coli LTEE.
 
 Script2 steps: 
-3) Separate the negative and positive strands to be processed separately. 
-4) Regenerate the mutant DNA sequence from the WT DNA sequence in order to get only bp change
-5) Compare the mutant DNA sequence with the WT DNA sequence to identify differences, which should correspond to a single change and match the reference and alternative sequences.
+3) The Negative and Positive strand were seperated and processed separately.
+4) We then generated the mutant DNA sequence from the WT DNA sequence by incorperating only 1bp change in the mutant sequence.
+5) A comparison was conducted between the wild-type (WT) and mutant DNA sequences to pinpoint the specific positions where differences occurred. This analysis aimed to identify the exact locations and the nature of the changes that distinguished the two sequences [sanity check of the code].
 
 Script1 steps: 
 6) Translate the WT DNA sequence to the protein sequence and match it with NCBI-given sequences. Takes the ones that perfectly matches.
